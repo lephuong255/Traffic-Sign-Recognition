@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Traffic-Sign-Recognition
-=======
 ### Hướng dẫn thực thi
 
 - Cài đặt các thư viện cần thiết trong file requirements.txt
@@ -15,4 +13,3 @@
 - Chạy file detection.py hoặc file detection.ipynb. 
     - File .py chỉ đưa ra output cuối cùng là ảnh đã được nhận diện và gán nhãn cho toàn bộ ảnh.
     - File .ipynb đưa ra các ảnh trong quá trình xử lý cho một số ảnh.
->>>>>>> 5c7050d (Initial commit)
