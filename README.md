@@ -1,15 +1,19 @@
-# Traffic-Sign-Recognition
-### Hướng dẫn thực thi
+# Traffic Sign Recognition
 
-- Cài đặt các thư viện cần thiết trong file requirements.txt
+This project implements a Traffic Sign Recognition system using a Convolutional Neural Network (CNN). The model is trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset and is containerized using Docker for easy deployment.
 
-**1. Để train mô hình CNN**
-- Tải file code và dữ liệu tại thư mục 'cnn training'
-- Chạy lần lượt các cell theo thứ thự
+### Clone the repository
 
-**2. Để chạy toàn bộ mô hình nhận dạng biển báo**
-- Tải các file signs_classes.txt, signs.names.txt và các file trong thư mục models
-- Chỉnh sửa các đường dẫn liên quan nếu cần thiết. Lưu ý đường dẫn của dữ liệu phải là thư mục chứa ảnh.
-- Chạy file detection.py hoặc file detection.ipynb. 
-    - File .py chỉ đưa ra output cuối cùng là ảnh đã được nhận diện và gán nhãn cho toàn bộ ảnh.
-    - File .ipynb đưa ra các ảnh trong quá trình xử lý cho một số ảnh.
+git clone https://github.com/lephuong255/Traffic-Sign-Recognition.git
+cd Traffic-Sign-Recognition
+
+### Install dependencies
+
+pip install -r requirements.txt
+
+### Run with Docker
+
+docker build -t traffic-sign-recognition .
+docker run -it traffic-sign-recognition
+
+
