@@ -6,7 +6,7 @@ Dự án xây dựng hệ thống phát hiện và phân loại biển báo giao
 2. **Xử lý ảnh**: cắt vùng ảnh chứa biển báo từ ảnh gốc.
 3. **Phân loại biển báo** sử dụng mô hình CNN, phân loại từng biển báo đã phát hiện được.
 
-### Dataset
+## Dataset
 
 Dự án sử dụng dataset GTSRB - German Traffic Sign Recognition Benchmark.
 
